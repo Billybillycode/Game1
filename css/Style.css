@@ -11,6 +11,7 @@ body {
     background-image: url(/image/ground.jpg);
     background-repeat: round;
     background-size: cover;
+    border: 2px black solid;
     width: 100vmin;
     height: 80vmin;
     display: grid;
@@ -19,5 +20,9 @@ body {
   }
 
   #chevalier {
-    background-image: url(/image/chevalier.jpg);
-  }
+    /* background-image: url(/image/chevalier.jpg); */
+    height: 50px;
+    width: 50px;
+    outline: 1px solid block;
+    background-color: red;
+}
