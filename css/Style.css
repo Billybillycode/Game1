@@ -5,15 +5,14 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: rgb(122, 101, 240);
   }
 
   #myMap {
-    background-image: url(/image/unnamed.jpg);
+    background-image: url(/image/ground.jpg);
     background-repeat: round;
     background-size: cover;
     width: 100vmin;
-    height: 100vmin;
+    height: 80vmin;
     display: grid;
     grid-template-rows: repeat(21, 1fr);
     grid-template-columns: repeat(21, 1fr);
